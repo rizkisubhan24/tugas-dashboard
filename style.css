@@ -1,0 +1,560 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container{
+    position: center;
+    width: 288px;
+    height: 1622px;
+    background: #212322;
+    display: flex;
+}
+.container header{
+  padding: 32px 75px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.container-menu{
+  width: 176px;
+  height: 704px;
+  margin-top: 80px;
+  margin-left: 56px;
+  gap:200px;
+  flex-direction: column;
+  display: flex;
+  align-items: flex-start;
+}
+.menu ul li a{
+  display: flex;
+ flex-direction: row;
+ display: flex;
+ padding: 6px 16px;
+ gap: 8px;
+ margin: 20px;
+ color: gray;
+}
+
+.menu ul li a h3{
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.menu ul .profile h3{
+  color: white;
+}
+.menu ul .profile a {
+  background: #00B140;
+  border-radius: 4px;
+}
+
+.menu ul .logout h3{
+  color:#212322; ;
+}
+
+.menu ul .logout a{
+background: #F9F9F9;
+border-radius: 4px;
+margin-top: 200px;
+}
+
+ .container-profile{
+   width: 1152px;
+   height: 80px;
+  align-items: center;
+  padding: 22px 56px;
+  gap: 8px;
+
+ }
+
+ .container-profile h1{
+   font-size: 28px;
+   line-height: 36px;
+   font-weight: 600;
+   align-items: center;
+   color: #212322;
+
+ }
+
+ .container-data{
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 696px;
+   height: 948px;
+   gap: 40px;
+   margin-top: 80px;
+   margin-left: 344px;
+   padding: 32px 0px 32px 0px;
+   border-radius: 0px 0px 2px 2px;
+   margin-bottom: 587px;
+ }
+
+ .data-nama{
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  width: 656px;
+  height: 146px;
+ isolation: isolate;
+ margin-top: 32px;
+ margin-left: 20px;
+ }
+
+ .icon-data{
+  width: 146px;
+  height: 146px;
+  border-radius: 100px;
+  margin-right: 24px;
+ }
+.icon-data img{
+  position: absolute;
+  width: 64px;
+  height: 64px;
+  padding: 40px 40px;
+}
+
+.data-nama-keseluruhan{
+  width: 302px;
+  height: 130px;
+}
+
+.data-nama-santri{
+  display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 8px;
+position: absolute;
+width: 234px;
+height: 48px;
+}
+
+.icon-masa-santri{
+display: flex;
+border-radius: 2px;
+flex-direction: column;
+padding: 9px 12px;
+/* gap: 10px; */
+position: absolute;
+width: 32px;
+height: 32px;
+margin-left: 444px;
+}
+
+.data-nama-santri h2{
+  margin-top: 8px;
+  font-size: 20px;
+  line-height: 26px;
+  font-weight: 600;
+}
+
+.data-nama-santri p{
+  margin-top: 8px;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.data-masa-santri{
+  position: absolute;
+  width: 302px;
+  height: 130px; 
+  margin-top: 75px;
+}
+
+.masa-santri-1{
+  display: flex;
+  gap: 64px;
+  margin-top: 25px;
+}
+
+.masa-waktu-santri{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+.masa-waktu-santri1{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.masa-waktu-santri h3{
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}
+
+.masa-waktu-santri1 h3{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  }
+
+.masa-santri-2{
+  display: flex;
+  margin-top: 7px;
+  gap: 64px;
+}
+
+.masa-santri-2 h3{
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  align-items: center;
+}
+
+.data-diri{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px 20px;
+gap: 8px;
+isolation: isolate;
+width: 696px;
+height: 46px;
+}
+
+.data-diri-1{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+gap: 120px;
+width: 621px;
+height: 46px;
+padding: 0px 20px;
+}
+
+.data-diri-A{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 20px;
+width: 656px;
+height: 620px;
+
+}
+
+.data-col-2{
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 656px;
+height: 60px;
+}
+
+.data-col-2 h3{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  flex-grow: 1;
+  align-self: stretch;
+  color: #212322;
+} 
+
+.data-col-2 p{
+  font-weight: 400;
+ font-size: 14px;
+ line-height: 18px;
+ flex-grow: 1;
+ align-self: stretch;
+ color: #808080;
+} 
+
+.informasi-sosial-santri{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 40px;
+position: absolute;
+width: 325px;
+height: 1428px;
+margin-left: 1096px;
+margin-top: 112px;
+}
+
+.link-santri{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: flex-start;
+  width: 259px;
+  height: 380px;
+}
+
+.link-santri  ul li{
+  width: 100px;
+display: flex;
+margin-top: 16px;
+align-items: center;
+gap: 8px;
+}
+
+.link-santri li h3{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.link-santri ul li img{
+border-radius: 2px;
+width: 32px;
+height: 32px;
+margin-left: 20px;
+}
+
+.identitas h2{
+   font-size: 20px;
+   line-height: 26px;
+   font-weight: 600;
+  margin: 20px;
+}
+
+/* keahlian santri */
+.keahlian{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: flex-start;
+  width: 259px;
+  height: 260px;
+}
+
+.keahlian h3{
+  font-size: 20px;
+   line-height: 26px;
+   font-weight: 600;
+  margin-left: 20px;
+}
+
+.keahlian-santri{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  padding: 20px;
+  align-items: flex-start;
+gap: 16px;
+margin-top: 40px;
+}
+
+/* .keahlian-A{
+display: flex;
+flex-direction:column;
+align-items: flex-start;
+padding: 0px; */
+/* gap: 16px; */
+/* } */
+
+
+.keahlian-A p{
+
+  flex-direction: row;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.keahlian-A span{
+flex-direction: row;
+ font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+color: #00B140;
+width: 84px;
+height: 26px;
+padding: 4px 8px 4px 8px;
+background: rgba(0, 177, 64, 0.08);
+border-radius: 2px;
+}
+
+.keahlian-B{
+  display: flex;
+  flex-direction:row;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 16px;
+
+  }
+
+ .keahlian-B p{
+    flex-direction: row;
+    /* position: absolute; */
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+  }
+  
+  .keahlian-B span{
+    flex-direction: row;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #085473;
+  width: b4px;
+  height: 26px;
+  background: rgba(8, 84, 115, 0.08);
+  padding: 4px 8px 4px 8px;
+  border-radius: 2px;
+ gap: 16px;
+}
+
+/* tahfidz */
+.contain-tahfidz{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  align-items: flex-start;
+  width: 259px;
+  height: 400px;
+}
+
+.tahfidz h3{
+margin-left: 20px;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+color: #212322;
+margin-bottom: 20px;
+}
+
+.juz-tahfidz{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+margin-left: 20px;
+margin-bottom: 16PX;
+}
+
+.juz-tahfidz ul {
+display: flex;
+gap: 16px;
+justify-content: center;
+}
+
+.juz-tahfidz  ul li{
+  display: flex;
+  width: 32px;
+  height: 32px;
+border-radius: 2px;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.hijau{
+  background-color: #00B140;
+  border-radius: 2px;
+  color: #EAEAEA;
+}
+
+.abu{
+  background: #EAEAEA;
+  border-radius: 2px;
+  
+}
+
+.set-hijau{
+  background: #89D0A3;
+  border-radius: 2px;
+  color: #EAEAEA;
+}
+
+.progres-tahfidz{
+  margin-top: 16px;
+  margin-left: 20px;
+}
+
+.progres-tahfidz h3{
+  width: 200px;
+  height: 16px;
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+display: flex;
+align-items: center;
+color: #808080;
+margin-bottom: 20px;
+}
+
+.progres-juz h3{
+  margin-top: 16px;
+  width: 125px;
+height: 17px;
+font-style: normal;
+font-weight: 600;
+font-size: 12px;
+line-height: 17px;
+letter-spacing: 0.3px;
+color: #212322;
+}
+
+/* izin */
+.izin-santri{
+  margin-top: 40px;
+  border: 0.5px solid #F3F3F3;
+border-radius: 2px;
+margin-left: 15px;
+
+}
+
+.izin-santri h3{
+width: 99px;
+height: 26px;
+font-weight: 600;
+font-size: 20px;
+line-height: 26px;
+display: flex;
+align-items: center;
+color: #212322;
+margin-left: 20px;
+}
+
+.data-izin-santri{
+  margin: 20px;
+  position: absolute;
+  flex-direction: column;
+  align-items: center;
+ justify-content: center;
+
+}
+
+.data-izin-santri img{
+  width: 54px;
+  height: 74px;
+  display: flex;
+align-items: center;
+text-align: center;
+font-family: 'Sora';
+font-style: normal;
+margin-top: 20px;
+font-weight: 300;
+font-size: 80px;
+line-height: 74px;
+margin-left: 110px;
+}
+
+.data-izin-santri p{
+  margin-top: 16px;
+  width: 112px;
+height: 18px;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+margin-left: 80px;
+}
+
